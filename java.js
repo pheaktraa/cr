@@ -33,7 +33,7 @@ const secondQuestion = document.querySelectorAll(".question")[1];
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Men ey";
-  secondQuestion.innerHTML = "How about you?"; 
+  // secondQuestion.innerHTML = "How about you?"; 
   img.src =
     "https://raw.githubusercontent.com/DzarelDeveloper/Img/main/AskCrush1.png";
 });
